@@ -14,6 +14,12 @@
 		733AB53C2A1A859D00F39EEF /* MealsAndRecipesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733AB53B2A1A859D00F39EEF /* MealsAndRecipesTests.swift */; };
 		733AB5462A1A859D00F39EEF /* MealsAndRecipesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733AB5452A1A859D00F39EEF /* MealsAndRecipesUITests.swift */; };
 		733AB5482A1A859D00F39EEF /* MealsAndRecipesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733AB5472A1A859D00F39EEF /* MealsAndRecipesUITestsLaunchTests.swift */; };
+		733AB5552A1A8D9000F39EEF /* MealsAndRecipeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733AB5542A1A8D9000F39EEF /* MealsAndRecipeGenerator.swift */; };
+		736FBAB82A2BC9E600DCA0F9 /* MealButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736FBAB72A2BC9E600DCA0F9 /* MealButtons.swift */; };
+		736FBABA2A2D0F5200DCA0F9 /* MealsAndRecipesList.json in Resources */ = {isa = PBXBuildFile; fileRef = 736FBAB92A2D0F5200DCA0F9 /* MealsAndRecipesList.json */; };
+		736FBABC2A2E7B5A00DCA0F9 /* RecipesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736FBABB2A2E7B5A00DCA0F9 /* RecipesList.swift */; };
+		73A4085E2A350CC500D3FFA8 /* RecipeDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A4085D2A350CC500D3FFA8 /* RecipeDetailsView.swift */; };
+		73A408642A354ED800D3FFA8 /* RecipeJsonDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A408632A354ED800D3FFA8 /* RecipeJsonDecoder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		733AB5412A1A859D00F39EEF /* MealsAndRecipesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MealsAndRecipesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		733AB5452A1A859D00F39EEF /* MealsAndRecipesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsAndRecipesUITests.swift; sourceTree = "<group>"; };
 		733AB5472A1A859D00F39EEF /* MealsAndRecipesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsAndRecipesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		733AB5542A1A8D9000F39EEF /* MealsAndRecipeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsAndRecipeGenerator.swift; sourceTree = "<group>"; };
+		736FBAB72A2BC9E600DCA0F9 /* MealButtons.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = MealButtons.swift; sourceTree = "<group>"; tabWidth = 4; usesTabs = 0; };
+		736FBAB92A2D0F5200DCA0F9 /* MealsAndRecipesList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = MealsAndRecipesList.json; path = MealsAndRecipes/MealsAndRecipesList.json; sourceTree = SOURCE_ROOT; };
+		736FBABB2A2E7B5A00DCA0F9 /* RecipesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesList.swift; sourceTree = "<group>"; };
+		73A4085D2A350CC500D3FFA8 /* RecipeDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailsView.swift; sourceTree = "<group>"; };
+		73A408632A354ED800D3FFA8 /* RecipeJsonDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeJsonDecoder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +108,13 @@
 			children = (
 				733AB52A2A1A859C00F39EEF /* MealsAndRecipesApp.swift */,
 				733AB52C2A1A859C00F39EEF /* ContentView.swift */,
+				736FBAB72A2BC9E600DCA0F9 /* MealButtons.swift */,
+				733AB5542A1A8D9000F39EEF /* MealsAndRecipeGenerator.swift */,
+				736FBABB2A2E7B5A00DCA0F9 /* RecipesList.swift */,
+				73A4085D2A350CC500D3FFA8 /* RecipeDetailsView.swift */,
 				733AB52E2A1A859D00F39EEF /* Assets.xcassets */,
+				736FBAB92A2D0F5200DCA0F9 /* MealsAndRecipesList.json */,
+				73A408632A354ED800D3FFA8 /* RecipeJsonDecoder.swift */,
 				733AB5302A1A859D00F39EEF /* Preview Content */,
 			);
 			path = MealsAndRecipes;
@@ -231,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				736FBABA2A2D0F5200DCA0F9 /* MealsAndRecipesList.json in Resources */,
 				733AB5322A1A859D00F39EEF /* Preview Assets.xcassets in Resources */,
 				733AB52F2A1A859D00F39EEF /* Assets.xcassets in Resources */,
 			);
@@ -257,7 +276,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73A408642A354ED800D3FFA8 /* RecipeJsonDecoder.swift in Sources */,
 				733AB52D2A1A859C00F39EEF /* ContentView.swift in Sources */,
+				73A4085E2A350CC500D3FFA8 /* RecipeDetailsView.swift in Sources */,
+				733AB5552A1A8D9000F39EEF /* MealsAndRecipeGenerator.swift in Sources */,
+				736FBABC2A2E7B5A00DCA0F9 /* RecipesList.swift in Sources */,
+				736FBAB82A2BC9E600DCA0F9 /* MealButtons.swift in Sources */,
 				733AB52B2A1A859C00F39EEF /* MealsAndRecipesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,12 +438,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MealsAndRecipes/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "MealsAndRecipes/Assets.xcassets MealsAndRecipes/Preview\\ Content";
 				DEVELOPMENT_TEAM = 2CQH9M62GQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Meals & Recipes";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -443,12 +469,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MealsAndRecipes/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "MealsAndRecipes/Assets.xcassets MealsAndRecipes/Preview\\ Content";
 				DEVELOPMENT_TEAM = 2CQH9M62GQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Meals & Recipes";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

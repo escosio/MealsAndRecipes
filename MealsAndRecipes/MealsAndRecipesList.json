@@ -1,0 +1,104 @@
+[
+ {
+   "meal": "Breakfast",
+   "mealName": "Pancakes",
+   "ingredient": "pancake mix, eggs",
+   "instructions": "tbd"
+ },
+ {
+   "meal": "Breakfast",
+   "mealName": "Cereal & Banana",
+   "ingredient": "cheerios and bananas",
+   "instructions": "tbd"
+ },
+ {
+   "meal": "Breakfast",
+   "mealName": "French Toast",
+   "ingredient": "eggs",
+   "instructions": "tbd"
+ },
+ {
+   "meal": "Breakfast",
+   "mealName": "Waffles & PB",
+   "ingredient": "",
+   "instructions": "tbd"
+ },
+ {
+   "meal": "Breakfast",
+   "mealName": "Muffins",
+   "ingredient": "tbd",
+   "instructions": "tbd"
+ },
+ {
+   "meal": "Lunch",
+   "mealName": "PB&J",
+   "ingredient": "tbd",
+   "instructions": "tbd"
+ },
+ {
+   "meal": "Lunch",
+   "mealName": "Nuggets",
+   "ingredient": "tbd",
+   "instructions": "tbd"
+ },
+ {
+   "meal": "Lunch",
+   "mealName": "Hot Dogs",
+   "ingredient": "tbd",
+   "instructions": "tbd"
+ },
+ {
+   "meal": "Dinner",
+   "mealName": "Meatballs",
+   "ingredient": "tbd",
+   "instructions": "tbd"
+ },
+ {
+   "meal": "Dinner",
+   "mealName": "Taco meat",
+   "ingredient": "tbd",
+   "instructions": "https://amindfullmom.com/3-ingredient-taco-meat-and-4-ways-to-use-it/"
+ },
+ {
+   "meal": "Dinner",
+   "mealName": "Pork chops & rice",
+   "ingredient": "- Get thin pork chops\n- Milk\n- Oil\n- Rice\n- Beans\n- Onions",
+   "instructions": "Season chops with adobo\nOil pan\nPour milk onto chops (instead of egg)\nBread chops in plate\nPut oil on top \n10 min on broil (one side)\n\n1 cup rice, 2 cup water\nBoil water throw in salt and oil \nLet the water boil Down\n\nFor beans \n1/4 onion\n1 garlic clove\n1/4 of tomato sauce( less)\nCouple chunks of sofrito 4tbsp\nCook on low"
+ },
+ {
+   "meal": "Dinner",
+   "mealName": "Gnocchi",
+   "ingredient": "tbd",
+   "instructions": "tbd"
+ },
+ {
+   "meal": "Dinner",
+   "mealName": "Hot Dogs & ____",
+   "ingredient": "tbd",
+   "instructions": "tbd"
+ },
+ {
+   "meal": "Dinner",
+   "mealName": "Pizza",
+   "ingredient": "tbd",
+   "instructions": "order"
+ },
+ {
+   "meal": "Dinner",
+   "mealName": "Baked potatoes and Raviolis",
+   "ingredient": "tbd",
+   "instructions": "tbd"
+ },
+ {
+   "meal": "Dinner",
+   "mealName": "Green beans and sausage",
+   "ingredient": "tbd",
+   "instructions": "tbd"
+ },
+ {
+   "meal": "Dinner",
+   "mealName": "Tacos",
+   "ingredient": "tbd",
+   "instructions": "tbd"
+ }
+]
