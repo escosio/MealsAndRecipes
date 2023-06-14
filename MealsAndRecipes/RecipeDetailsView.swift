@@ -18,8 +18,9 @@ struct RecipeDetailsView: View {
         VStack {
             Text(recipe.mealName).font(.title)
             Text("Ideal Meal time: \(recipe.meal)").padding()
-            Text(recipe.ingredient).font(.subheadline).padding()
-            Text(recipe.instructions).font(.body)
+            Text("Ingredients").font(.subheadline)
+            Text(recipe.ingredient).font(.subheadline)
+            Text(recipe.instructions).font(.body).padding()
             Spacer()
         }.cornerRadius(10)
     }

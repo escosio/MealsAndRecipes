@@ -11,28 +11,27 @@ let exampleRecipe = RecipeElement(meal: "Dinner", mealName: "Eggplant Parm", ing
 
 
 struct RecipesList: View {
-    @State private var mealGiven: MealsOfTheDay
+    @State private var mealGiven: Meal
     
-    init(mealGiven: MealsOfTheDay) {
+    init(mealGiven: Meal) {
         self.mealGiven = mealGiven
-//        let recipes = getAllRecipesForMeal(mealChosen: self.mealGiven)
     }
     
     private var recipes: [RecipeElement] = RecipeElement.allRecipes
     
-//    @State private var recipes = getAllRecipesForMeal(mealChosen: self.mealGiven)
-    
     var body: some View {
+        let mealString = "\(mealGiven)"
         VStack {
-            Text(mealStrings[mealGiven]!)
+            Text(mealString.capitalized)
                 .font(.largeTitle)
+                .padding()
             HStack {
 //                MealButtons()
                 HStack (spacing: 30) {
-                    Text(mealStrings[.all]!)
-                    Text(mealStrings[.breakfast]!)
-                    Text(mealStrings[.lunch]!)
-                    Text(mealStrings[.dinner]!)
+                    Text("All")
+                    Text("Breakfast")
+                    Text("Lunch")
+                    Text("Dinner")
                 }.padding()
 
             }
@@ -56,9 +55,15 @@ struct RecipesList_Previews: PreviewProvider {
     }
 }
 
-func updateSelectedMeal(currentMealType: MealsOfTheDay, newMealType: MealsOfTheDay) -> MealsOfTheDay {
-    let currentMealType = newMealType
-    return currentMealType
+func filterRecipes(meal: Meal, recipeList: [RecipeElement]) -> [RecipeElement] {
+    var newList: [RecipeElement] = Array()
+    let mealString = "\(meal)"
+    for recipe in recipeList {
+        if recipe.meal == mealString {
+            newList.append(recipe)
+        }
+    }
+    return newList
 }
 
 struct RecipeItemView: View {

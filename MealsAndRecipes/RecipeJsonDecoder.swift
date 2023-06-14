@@ -17,11 +17,12 @@ struct RecipeElement: Codable, Hashable {
     static let sampleRecipe: RecipeElement = allRecipes[0]
 }
 
-//enum Meal: String, Codable {
-//    case breakfast = "Breakfast"
-//    case dinner = "Dinner"
-//    case lunch = "Lunch"
-//}
+enum Meal: String, Codable {
+    case all = "All"
+    case breakfast = "Breakfast"
+    case dinner = "Dinner"
+    case lunch = "Lunch"
+}
 
 extension Bundle {
     func decode<T: Decodable>(file: String) -> T {

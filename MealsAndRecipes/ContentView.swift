@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     
     //    @State private var isNight = false
-    @State private var selectedMeal: MealsOfTheDay = .all
+    @State private var selectedMeal: Meal = .all
     
     var body: some View {
         ZStack {
