@@ -26,15 +26,16 @@ enum Meal: String, Codable {
 
 extension Bundle {
     func decode<T: Decodable>(file: String) -> T {
-        
+//        get the file url
         guard let url = self.url(forResource: file, withExtension: nil) else {
             fatalError("Could not find \(file) in the project!")
         }
-        
+//        convert the file to data
         guard let data = try? Data(contentsOf: url) else {
             fatalError("Could not load contents of \(file)")
         }
         
+//        decode the data
         let decoder = JSONDecoder()
         
         guard let loadedData = try? decoder.decode(T.self, from: data) else {
@@ -44,3 +45,9 @@ extension Bundle {
         return loadedData
     }
 }
+
+let allRecipes: [RecipeElement] = RecipeElement.allRecipes
+let breakfastRecipes = allRecipes.filter { $0.meal == "Breakfast" }
+let lunchRecipes = allRecipes.filter { $0.meal == "Lunch" }
+let dinnerRecipes = allRecipes.filter { $0.meal == "Dinner" }
+

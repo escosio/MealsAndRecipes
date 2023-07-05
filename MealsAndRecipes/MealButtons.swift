@@ -13,16 +13,16 @@ struct MealButtons: View {
     var body: some View {
 //        NavigationView lives in ConentView
             VStack(spacing: 15) {
-                NavigationLink(destination: RecipesList(mealGiven: .breakfast), label: {
+                NavigationLink(destination: RecipesList(recipesGiven: breakfastRecipes, mealName: "Breakfast"), label: {
                     MealButtonView(mealName: "Breakfast", mealImage: "sunrise")
                 })
-                NavigationLink(destination: RecipesList(mealGiven: .lunch), label: {
+                NavigationLink(destination: RecipesList(recipesGiven: lunchRecipes, mealName: "Lunch"), label: {
                     MealButtonView(mealName: "Lunch", mealImage: "sun.and.horizon")
                 })
-                NavigationLink(destination: RecipesList(mealGiven: .dinner), label: {
+                NavigationLink(destination: RecipesList(recipesGiven: dinnerRecipes, mealName: "Dinner"), label: {
                     MealButtonView(mealName: "Dinner", mealImage: "cloud.moon").edgesIgnoringSafeArea(.all)
                 })
-                NavigationLink(destination: RecipesList(mealGiven: .all), label: {
+                NavigationLink(destination: RecipesList(recipesGiven: allRecipes, mealName: "All"), label: {
                     MealButtonView(mealName: "All", mealImage: "tree").edgesIgnoringSafeArea(.all)
                 })
             }

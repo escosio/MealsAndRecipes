@@ -22,7 +22,6 @@ struct ContentView: View {
                     Text("Tap an option").padding(.top, 20).font(.system(size: 20))
                     }
                     Spacer()
-//                    Button(action: getJson, label: {Text("json")})
             }
             }.padding()
         }

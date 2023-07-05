@@ -19,6 +19,7 @@
 		736FBABC2A2E7B5A00DCA0F9 /* RecipesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736FBABB2A2E7B5A00DCA0F9 /* RecipesList.swift */; };
 		73A4085E2A350CC500D3FFA8 /* RecipeDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A4085D2A350CC500D3FFA8 /* RecipeDetailsView.swift */; };
 		73A408642A354ED800D3FFA8 /* RecipeJsonDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A408632A354ED800D3FFA8 /* RecipeJsonDecoder.swift */; };
+		73A4086A2A3BDF5000D3FFA8 /* RecipeListViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A408692A3BDF5000D3FFA8 /* RecipeListViewer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7330D8A82A3F51E300550FB3 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		733AB5272A1A859C00F39EEF /* MealsAndRecipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MealsAndRecipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		733AB52A2A1A859C00F39EEF /* MealsAndRecipesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsAndRecipesApp.swift; sourceTree = "<group>"; };
 		733AB52C2A1A859C00F39EEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 		736FBABB2A2E7B5A00DCA0F9 /* RecipesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesList.swift; sourceTree = "<group>"; };
 		73A4085D2A350CC500D3FFA8 /* RecipeDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailsView.swift; sourceTree = "<group>"; };
 		73A408632A354ED800D3FFA8 /* RecipeJsonDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeJsonDecoder.swift; sourceTree = "<group>"; };
+		73A408692A3BDF5000D3FFA8 /* RecipeListViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListViewer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,7 @@
 		733AB51E2A1A859C00F39EEF = {
 			isa = PBXGroup;
 			children = (
+				7330D8A82A3F51E300550FB3 /* MyPlayground.playground */,
 				733AB5292A1A859C00F39EEF /* MealsAndRecipes */,
 				733AB53A2A1A859D00F39EEF /* MealsAndRecipesTests */,
 				733AB5442A1A859D00F39EEF /* MealsAndRecipesUITests */,
@@ -113,6 +117,7 @@
 				736FBAB92A2D0F5200DCA0F9 /* MealsAndRecipesList.json */,
 				73A408632A354ED800D3FFA8 /* RecipeJsonDecoder.swift */,
 				733AB5302A1A859D00F39EEF /* Preview Content */,
+				73A408692A3BDF5000D3FFA8 /* RecipeListViewer.swift */,
 			);
 			path = MealsAndRecipes;
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73A4086A2A3BDF5000D3FFA8 /* RecipeListViewer.swift in Sources */,
 				73A408642A354ED800D3FFA8 /* RecipeJsonDecoder.swift in Sources */,
 				733AB52D2A1A859C00F39EEF /* ContentView.swift in Sources */,
 				73A4085E2A350CC500D3FFA8 /* RecipeDetailsView.swift in Sources */,

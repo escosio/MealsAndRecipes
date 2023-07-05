@@ -7,71 +7,90 @@
 
 import SwiftUI
 
-let exampleRecipe = RecipeElement(meal: "Dinner", mealName: "Eggplant Parm", ingredient: "eggs, milk, eggplants", instructions: "Preheat at 425 degrees and then lorem ipsum")
-
-
 struct RecipesList: View {
-    @State private var mealGiven: Meal
+    @State private var recipesGiven: [RecipeElement]
+    private var mealName: String
     
-    init(mealGiven: Meal) {
-        self.mealGiven = mealGiven
+    init(recipesGiven: [RecipeElement], mealName: String) {
+        self.recipesGiven = recipesGiven
+        self.mealName = mealName
     }
     
-    private var recipes: [RecipeElement] = RecipeElement.allRecipes
-    
     var body: some View {
-        let mealString = "\(mealGiven)"
         VStack {
-            Text(mealString.capitalized)
+            Text(mealName.capitalized)
                 .font(.largeTitle)
                 .padding()
             HStack {
-//                MealButtons()
                 HStack (spacing: 30) {
-                    Text("All")
-                    Text("Breakfast")
-                    Text("Lunch")
-                    Text("Dinner")
+//                    MealTabButton(buttonText: "All")
+//                    MealTabButton(buttonText: "Breakfast")
+//                    MealTabButton(buttonText: "Lunch")
+//                    MealTabButton(buttonText: "Dinner")
+                    NavigationLink(destination: RecipesList(recipesGiven: breakfastRecipes, mealName: "Breakfast"), label: {
+                        Text("Breakfast").foregroundColor(.black)
+                    })
+                    NavigationLink(destination: RecipesList(recipesGiven: lunchRecipes, mealName: "Lunch"), label: {
+                        Text("Lunch").foregroundColor(.black)
+                    })
+                    NavigationLink(destination: RecipesList(recipesGiven: dinnerRecipes, mealName: "Dinner"), label: {
+                        Text("Dinner").foregroundColor(.black)
+                    })
+                    NavigationLink(destination: RecipesList(recipesGiven: allRecipes, mealName: "All"), label: {
+                        Text("All").foregroundColor(.black)
+                    })
                 }.padding()
-
+                
             }
             VStack {
                 List {
-                    ForEach(recipes, id: \.self) { recipe in
+                    ForEach(recipesGiven, id: \.self) { recipe in
                         NavigationLink(destination: RecipeDetailsView(recipe: recipe), label: {
                             RecipeItemView(recipe: recipe)
                         }
-
-                    )}
+                        )}
                 }
-                }
+            }.edgesIgnoringSafeArea(.all)
+        }
+    }
+    
+    struct RecipesList_Previews: PreviewProvider {
+        static var previews: some View {
+            RecipesList(recipesGiven: dinnerRecipes, mealName: "Dinner")
+        }
+    }
+    
+    func filterRecipes(meal: Meal, recipeList: [RecipeElement]) -> [RecipeElement] {
+        var newList: [RecipeElement] = Array()
+        let mealString = "\(meal)"
+        for recipe in recipeList {
+            if recipe.meal == mealString {
+                newList.append(recipe)
             }
         }
+        return newList
     }
-
-struct RecipesList_Previews: PreviewProvider {
-    static var previews: some View {
-        RecipesList(mealGiven: .dinner)
-    }
-}
-
-func filterRecipes(meal: Meal, recipeList: [RecipeElement]) -> [RecipeElement] {
-    var newList: [RecipeElement] = Array()
-    let mealString = "\(meal)"
-    for recipe in recipeList {
-        if recipe.meal == mealString {
-            newList.append(recipe)
+    
+    struct RecipeItemView: View {
+        var recipe: RecipeElement
+        
+        var body: some View {
+            Text(recipe.mealName)
         }
     }
-    return newList
-}
-
-struct RecipeItemView: View {
-    var recipe: RecipeElement
     
-    var body: some View {
-        Text(recipe.mealName)
+    struct MealTabButton: View {
+        var buttonText: String
+        
+        init(buttonText: String) {
+            self.buttonText = buttonText
+        }
+        
+        var body: some View {
+            //        var isSelected = false
+            Text(buttonText)
+            //        Button(action: filterRecipes(meal: .all, recipeList: recipes),
+            //               label: { Text("String")})
+        }
     }
 }
-
-
