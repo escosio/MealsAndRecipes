@@ -15,19 +15,25 @@
    "meal": "Breakfast",
    "mealName": "French Toast",
    "ingredient": "1 egg\n1 teaspoon McCormick® All Natural Pure Vanilla Extract\n1/2 teaspoon McCormick® Ground Cinnamon\n1/4 cup milk\n4 slices hearty sandwich bread",
-   "instructions": "tbd"
+   "instructions": "1. To make this easy French toast recipe:\nWhisk egg, vanilla and cinnamon in shallow dish. Stir in milk.\n2. Dip bread slices in egg mixture, turning to coat evenly on both sides.\n3. Cook bread slices on lightly greased nonstick griddle or skillet on medium heat until cooked through and browned on both sides. Serve with Easy Spiced Syrup (recipe follows), if desired. Voila, easy French toast.\n4. Easy Spiced Syrup: Add 1 teaspoon McCormick® Pure Vanilla Extract and 1/4 teaspoon McCormick® Ground Cinnamon to 1 cup pancake syrup; stir well to mix. Serve warm, if desired."
  },
  {
    "meal": "Breakfast",
    "mealName": "Waffles & Sausages",
-   "ingredient": "waffles, sausages",
-   "instructions": "tbd"
+   "ingredient": "waffles, sausages, Peanut Butter",
+   "instructions": "Toast Waffles, spread PB, sausages in the microwave for 30 sec each side"
  },
  {
    "meal": "Breakfast",
    "mealName": "Zucchini Muffins",
    "ingredient": "1 ⅔ cup / 200 g buckwheat flour (or other flour)\n1 tsp. / 5 mL baking powder\n1 tsp. / 5 mL baking soda\n1 tsp. / 5 mL cinnamon\n½ tsp. / 2.5 mL salt\n½ cup milk / 120 mL milk of choice\n1 large egg\n½ cup / 120 mL maple syrup or honey\n¼ cup / 60 mL avocado oil (or other oil for baking)\n1 tsp. / 5 mL vanilla\n½ cup chocolate chips\n2 cups / 480 mL shredded zucchini (squeezed in a towel to remove extra\nliquid) ",
    "instructions": "1. Preheat oven to 350 degrees F / 175 degrees C. Prepare muffin tins by\ngreasing or using papers.\n2. In a large bowl, mix flour, baking powder, baking soda, cinnamon and salt.\n3. In a separate bowl, whisk together milk, egg, maple syrup, oil and vanilla.\n4. Pour wet ingredients into dry ingredients. Stir just enough to incorporate\nthe ingredients.\n5. Stir zucchini and chocolate chips into the the batter.\n6. Spoon batter into muffin tins.\n7. Bake for approximately 16 minutes or until a toothpick or knife inserted\ninto the center comes out clean. "
+ },
+ {
+   "meal": "Breakfast",
+   "mealName": "Blueberry muffins",
+   "ingredient": "Mix, 1 egg, 1/4 cup of milk",
+   "instructions": "Mix "
  },
  {
    "meal": "Lunch",
@@ -44,8 +50,8 @@
  {
    "meal": "Lunch",
    "mealName": "Hot Dogs",
-   "ingredient": "tbd",
-   "instructions": "tbd"
+   "ingredient": "Hot Dogs, Hot Dog buns",
+   "instructions": "Preheat 375, 5min on one side then 3 on the other."
  },
  {
    "meal": "Dinner",
@@ -75,7 +81,7 @@
    "meal": "Dinner",
    "mealName": "Hot Dogs",
    "ingredient": "Hot Dogs, Hot Dog buns",
-   "instructions": "tbd"
+   "instructions": "Preheat 375, 5min on one side then 3 on the other."
  },
  {
    "meal": "Dinner",
@@ -85,9 +91,9 @@
  },
  {
    "meal": "Dinner",
-   "mealName": "Baked potatoes and Raviolis",
-   "ingredient": "tbd",
-   "instructions": "I dont even know"
+   "mealName": "Raviolis",
+   "ingredient": "frozen raviolis",
+   "instructions": "boil water and then cook for 5min"
  },
  {
    "meal": "Dinner",
@@ -110,8 +116,8 @@
  {
    "meal": "Dinner",
    "mealName": "Empanadas",
-   "ingredient": "tbd",
-   "instructions": "tbd"
+   "ingredient": "1 pound of lean ground beef\n1/3 cup of homemade sofrito\n1/3 cup of tomato sauce\n1 packet of sazon con achiote\n1 tablespoon of adobo all purpose seasoning\n2 teaspoons of ground cumin\n1 teaspoon of dried oregano\n1 teaspoon of red pepper flakes\n2 1/2 cups of small diced potatoes (frozen potatoes work too)\n1 package of Goya Brand- Empanada Discos con Achiote",
+   "instructions": "Defrost frozen empanada dough for 2-3 hours.\nOn medium heat cook homemade sofrito with tomato sauce until fragrant. Then add lean ground beef.\nCrumble the meat and season with sazon, adobo, cumin, dried oregano and red pepper flakes.\nOnce meat is brown add diced potatoes and allow remaining liquid to steam potatoes until tender. Cool your mixture.\nOn a flat surface, sprinkle some all purpose flour and lay out your empanada dough.\nAdd a tablespoon of the meat mixture in the center of the dough. Fold over the dough and firmly press with your thumbs. To properly seal the seam, crimp the edges with a fork.\nIn hot oil, fry the empanadas for 1 minute on each side. Let them rest on a paper-towel and enjoy!"
  },
  {
    "meal": "Dinner",
@@ -132,9 +138,21 @@
    "instructions": ""
  },
  {
-   "meal": "",
+   "meal": "Dinner",
    "mealName": "Roasted Chicken and Veggies with Rice",
    "ingredient": "Chicken pieces (thighs shown)\nVegetables, cut into pieces (smaller/thinner pieces cook faster) Oil, for drizzling (I used avocado oil)\nWhite rice (jasmine rice shown, cooked using 1:1.5 ratio of rice to water) Salt, pepper, or other herbs/spices for vegetables (optional) Other sauce or seasoning for chicken (optional)\nButter/olive oil (optional)",
    "instructions": "1. Preheat oven to 375 degrees F / 190 degrees C.\n2. Put chicken in an oven-safe dish. Cover tightly with an oven-safe lid or with foil.\n3. Put chopped veggies on a baking sheet. Drizzle with oil, salt, pepper, or any spices you are using for the chicken. Use your hands to make sure all veggies are coated with oil. Cover the baking sheet with foil, shiny side down toward the veggies.\n4. Bake for approximately 25 minutes. See time saver note for alternate cooking methods.\n5. Once chicken and veggies are in the oven, cook rice according to package directions.\n6. Serve rice with butter or olive oil, if desired."
+ },
+ {
+   "meal": "Dinner",
+   "mealName": "Ropa Vieja",
+   "ingredient": "3 pound beef chuck roast with fat cap\n1 cup homemade sofrito recipe linked above\n10 spanish stuffed olives (chopped) optional\n3-5 small bay leaves\n1 tablespoon dried oregano\n1 tablespoon garlic powder\n2 tablespoons ground cumin\n1 tablespoon smoked paprika\n1 tablespoon adobo all purpose seasoning\n2 packets sazon with culantro y achiote\n6 oz tomato paste\n15 oz crushed tomatoes 5-6 fresh diced tomatoes\n2 tablespoons ketchup\n8 cups chicken broth\nsalt and pepper to taste\nolive oil as needed",
+   "instructions": "Preheat oven to 250ºF. Cut the chuck roast in half so it will be able to fit into caldero or dutch pot.\nLiberally season the chuck roast with coarse salt and black pepper. Massage in seasoning. Set aside and let rest for about 20 minutes or until the meat is room temperature. Make sure the meat isn’t cold prior to searing. An even room temperature allows for an even sear\nIn your Dutch pot, add enough olive oil to coat the bottom. Sear the meat on each side, about 4-5 minutes. Leave beef drippings in pot and set the meat aside while you work on the braising liquid.\nIn the same pot with beef drippings, add sofrito and sauté for about 5 minutes. Then add the olives, dried oregano, granulated garlic, ground cumin, smoked paprika, adobo and sazón. Toast the spices and let them bloom a bit, about 2 minutes or until fragrant\nAdd the tomato paste and stir well until fully incorporated. Then add the crushed tomatoes, ketchup, and broth.\nLastly, add the bay leaves and nestle the seared chuck roast into the braising liquid and cover with the lid. Cook in the oven for 3 hours, fully covered.\nAfter the 3 hours, remove the pot from the oven and remove the meat. Set aside and shred with two forks or with your hands when cool enough to handle.\nMeanwhile, on the stove, bring the braising liquid to a boil and skim any fat that is on the top. Boil for about 10-15 minutes to reduce and thicken up; fold the shredded beef back into the sauce.\nServe the ropa vieja with white rice and enjoy!\n\nhttps://www.nataknowsbest.com/puerto-rican-ropa-vieja/\n"
+ },
+ {
+   "meal": "Dinner",
+   "mealName": "Arroz con Gandules",
+   "ingredient": "2 cups rinsed white rice long grain\n3 cups water\n1 tablespoon olive oil\n1 15 ounce can of gandules (rinsed and drained) Alternatives are frozen or fresh gandules\n1/3 cup of homemade sofrito linked above\n1/3 cup tomato sauce or tomato paste\n1/3 cup fully cooked, cubed country ham or chunks of pernil pork shoulder\n2 tablespoon stuffed olives (drained) optional\n2 - 3 bays leaves optional\n1 packet sazon with achiote y culantro goya or loiza brand\n2-3 tablespoons adobo all purpose seasoning or to desired taste\n1 teaspoon dried oregano\nsalt if needed",
+   "instructions": "In a dutch oven pot or caldero, heat olive oil at medium-high heat. Add sofrito, tomato sauce and cooked diced country ham or pork chunks. Cook until fragrant (roughly 5 minutes) and flavors are well infused.\nThen add gandules. If canned, rinse and drain. If frozen, do not thaw. If fresh, add in without manipulation. Next add bay leaves for extra flavoring. Allow to infuse with sofrito tomato base.\nIf desired add stuffed olives. Next, pour room temperature water in the dutch pot, stir lightly and begin to heavily season.\nAdd sazon, adobo, dried oregano and salt if needed. Carefully taste and adjust seasonings to liking.\nAllow water to come to boil then add rinsed rice. Stir once or twice and leave untouched. Avoid over-stirring, as it creates extra starch and mushiness. Cook rice uncovered until water is mostly absorbed.\nOnce most of the visible surface liquid is absorbed, gently stir the rice once more, and lower the heat and cover. Allow low heat to steam rice for 20-25 minutes.\nThe arroz con gandules will be done when all liquid is absorbed, rice is fluffy and peas are tender. Remove bay leaves before serving."
  }
 ]
